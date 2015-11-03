@@ -42,7 +42,7 @@
     var hideElements = [];
 
     classes.forEach(function (curClass) {
-      var elements = document.getElementsByClass(curClass);
+      var elements = document.getElementsByClassName(curClass);
       
       if(elements.length == 0) {
         return;
